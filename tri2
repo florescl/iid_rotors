@@ -1,0 +1,82 @@
+#n_iters_item, n_sites_visited, n_iters_item/math.log(n_iters_item), pow(n_iters_item,0.667), n_excursions
+2000
+initializing mat
+done initializing
+origin
+origin
+origin
+origin
+origin
+2201 516 3.04174031027 0
+origin
+origin
+origin
+origin
+origin
+origin
+23802 4339 5.22622951655 1
+origin
+origin
+origin
+origin
+origin
+origin
+73526 9325 5.29337587325 2
+origin
+origin
+origin
+origin
+origin
+origin
+196914 23264 6.84544839424 3
+origin
+origin
+origin
+origin
+origin
+origin
+459014 48616 8.13469598476 4
+origin
+origin
+origin
+origin
+origin
+origin
+967142 92966 9.46241851447 5
+origin
+origin
+origin
+origin
+origin
+origin
+1772121 143571 9.75711999711 6
+origin
+origin
+origin
+origin
+origin
+origin
+2973209 213352 10.2672786961 7
+origin
+origin
+origin
+origin
+origin
+origin
+4666107 297109 10.5857839744 8
+origin
+origin
+origin
+origin
+origin
+origin
+6870878 383127 10.5452188366 9
+origin
+origin
+origin
+origin
+origin
+origin
+9744815 500430 10.9101657049 10
+origin
+origin

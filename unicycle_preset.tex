@@ -1,0 +1,39 @@
+\documentclass{article}
+\usepackage{tikz}
+\usetikzlibrary{spy} 
+%\usetikzlibrary{decoration} 
+\usepackage{pgf,tikz}
+\usepackage{pgfplots,comment}
+\usetikzlibrary{spy}
+\usetikzlibrary{backgrounds}
+\usetikzlibrary{decorations}
+\date{}
+\begin{document}
+
+\pagestyle{empty}
+
+\pgfdeclarelayer{background layer}
+\pgfsetlayers{background layer,main}
+\definecolor{darkgray}{rgb}{0.25,0.25,0.25}
+\definecolor{lightgray}{rgb}{0.75,0.75,0.75}
+%
+\begin{figure}[h!]
+
+\begin{tikzpicture}
+    [scale=0.3,only marks,reddot/.style={fill=red,circle,inner sep=1pt, minimum width=0.5pt},bluedot/.style={fill=blue,circle, inner sep=2pt, minimum width=0.5pt},
+    blackdot/.style={fill=black,circle, inner sep=2pt, minimum width=0.5pt},
+    yellowdot/.style={fill=yellow,circle, inner sep=2pt, minimum width=0.5pt},
+    greendot/.style={fill=green,circle, inner sep=2pt, minimum width=0.5pt},    
+     %using the 'spy' to magnify a part of the picture
+     spy using outlines={rectangle,lens={scale=3}, size=6cm, connect spies},
+     %using the decoration 'brace' (=a curly brace as path replacement)
+     %decoration={brace,amplitude=2pt}
+]
+
+\input{uni1.tex}
+
+
+\end{tikzpicture}
+%\caption{Red: points from 1st quarter, Blue: points from 3rd quarter, and Matching between them for the same SNW with 40 particles}
+\end{figure}
+\end{document}
